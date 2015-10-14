@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pe.edu.upeu.app003.DepositoActivity">
+
+
+
+
+
+    <item
+        android:id="@+id/cajero_saldo"
+        android:title="@string/title_activity_saldo"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item
+        android:id="@+id/cajero_retirar"
+        android:title="@string/title_activity_retirar"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/cajero_depositar"
+        android:title="@string/title_activity_deposito"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+
+
+
+</menu>
